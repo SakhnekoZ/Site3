@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+   text-decoration: none;
+    
+}
+li{
+   text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    width: 100%;
+    isolation: isolate;
+}
+.logo{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.grafficlogo{
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    margin:auto;
+    width: 510px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.topnav{
+    background-color: white;
+    font-size: 15px;
+    margin-top: 40px;
+    transition: transform 1s;
+}
+.topnav a{
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    transition: transform 1s;
+}
+
+}
+.topnav .icon{
+    display: none;
+}
+.mw-100{
+    max-width: 100%;
+    
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.games{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Oblivion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    width: 100%;
+    height:auto;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+footer a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+footer p{
+    color:white;
+}
+.MoraScr{
+    padding: 20px;
+    margin: 10px;
+}
+.Mora{
+    margin-left: 200;
+}
+.OblaScr{
+    padding: 20px;
+    margin: 10px;
+}
+.Obla{
+    margin-right: 100px;
+}
+.SkyScr{
+    padding: 20px;
+    margin: 10px;
+}
+.Sky{
+    margin-right: 100px;
+}
+.menu_link{
+    position: relative;
+}
+.menu_link:before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position:absolute;
+    left: 0; bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+    transform-origin: right;
+}
+.menu_link:hover{
+    color:black;
+}
+.menu_link:hover:before{
+    transform: scaleX(1);
+    transition: transform 0.25s;
+    transform-origin: left;
+}
+.menu_link2{
+    position: relative;
+}
+.menu_link2:before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position:absolute;
+    left: 0; bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+    transform-origin: right;
+}
+.menu_link2:hover{
+    color:white;
+}
+.menu_link2:hover:before{
+    transform: scaleX(1);
+    transition: transform 0.25s;
+    transform-origin: left;
+}
+.Guard{
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    width: 20%;
+}
+.Obla_text{
+    padding: 5px;
+    border-bottom: 2px solid maroon;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.Mora_text1{
+    padding: 5px;
+    border-bottom: 2px solid maroon;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.Morrowind img{
+    transition: 0.5s;
+}
+.Morrowind img:hover{
+    transform: scale(1.1);
+}
+.Oblivion img{
+    transition: 0.5s;
+}
+.Oblivion img:hover{
+    transform: scale(1.1);
+}
+.Skyrim img{
+    transition: 0.5s;
+}
+.Skyrim img:hover{
+    transform: scale(1.1);
+}
+.Guard img{
+    transition: 0.5s;
+}
+.Guard img:hover{
+    transform: scale(1.1);
+}
+.Awake{
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    width: 20%;
+}
+.Sky_text{
+    padding: 5px;
+    border-bottom: 2px solid maroon;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.main_text{
+    padding: 5px;
+    border-bottom: 2px solid maroon;
+    font-weight: normal;
+    padding-bottom: 5px;
+    
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d4d4d4;
+    box-shadow: 0 0 2px rgba(0,0,0,.5) inset;
+}
+::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 8px;
+    border: 3px solid #d4d4d4;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: darkgray;
+    transition: 1s;
+    
+}
